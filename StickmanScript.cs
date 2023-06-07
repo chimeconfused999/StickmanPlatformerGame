@@ -7,7 +7,7 @@ public class StickmanScript : MonoBehaviour
     public float speed;
     public Rigidbody2D myRigidBody;
     private float move;
-    public float jump;
+    public float jump = 500;
     public bool isjumping;
     // Start is called before the first frame update
     void Start()
